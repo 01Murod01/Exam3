@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="#" style="text-decoration: none; text-align: center;"><img class="logo"
+                    src="./images/pokemon_logo 1.svg" width="610" height="225" alt="logo"></a>
+            <div class="row center_wrap d-flex p-5 align-items-center">
+                <div class="col-2">
+                    <select id="type" class="form-select border border-2 border-dark text text-dark fs-6">
+                        <option value="all" disabled></option>
+                    </select>
+                </div>
+                <div class="col-2"><input class="form-control border border-dark border-2" type="text"
+                        placeholder="Search"></div>
+                <div class="col-2">
+                    <select id="aazz" class="form-select border border-2 border-dark text text-dark fs-6">
+                        <option value="all" disabled selected>Aa-Zz</option>
+                    </select>
+                </div>
+                <div class="col-2"><button type="button"
+                        class="btn btn-light text text-dark fs-6 p-2 ps-5 pe-5 border border-2 border-dark">Button</button>
+                </div>
+            </div>
+            <div class="wrapper d-flex flex-wrap"></div>
+        </div>
+    </div>
+
+
+    <script src="./js/data.js"></script>
+    <script src="./plugin.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
